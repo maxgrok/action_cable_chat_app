@@ -1,6 +1,6 @@
 # README
 
-This is the base app for [*Learn Enough Action Cable to Be Dangerous*](https://www.learnenough.com/action-cable-tutorial).
+This is the ActionCable app that is built off of the base app from [*Learn Enough Action Cable to Be Dangerous*](https://www.learnenough.com/action-cable-tutorial).
 
 To get started, fork the repo and clone it to your local machine, then run the following commands:
 
@@ -10,11 +10,12 @@ rails db:migrate
 rails db:seed
 rails test
 ```
+All of the edits to include ActionCable are already done in this repo.
 
-The base app doesn't use Action Cable, but rather is designed as the starting point for the tutorial. To see the state of the app at the *end* of the tutorial, switch to the `action-cable-reference` branch:
+# Contributors
 
-```
-git checkout action-cable-reference
-```
+If anyone would like to enhance this web app, then feel free to submit a 'pull' request. 
 
-When following the tutorial, you should be able to resolve any discrepancies by comparing with this reference app.
+# License
+
+Creative Commons Sharealike-Attribution License -- Please cite your sources. 
